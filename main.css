@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .green {
+    background: green; /* ЦВЕТ ФОНА */
+    color: red; /* ЦВЕТ ТЕКСТА */
+  }
+  
+  .red {
+    background: #e04848;
+  }
+  
+  div {
+    display: flex; /* ПРАВИЛО РАСПОЛОЖЕНИЯ ДОЧЕРНИХ ЭЛЕМЕНТОВ */
+    flex-direction: row; /* НАПРАВЛЕНИЕ РАСПОЛОЖЕНИЯ ДОЧЕРНИХ ЭЛЕМЕНТОВ ROW (В РЯД) / COLUMN (ВНИЗ) */
+    gap: 8px; /* РАССТОЯНИЕ МЕЖДУ ДОЧЕРНИМИ ЭЛЕМЕНТАМИ */
+    justify-content: space-between;
+  }
