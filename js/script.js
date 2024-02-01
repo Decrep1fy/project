@@ -1,15 +1,24 @@
-<<<<<<< HEAD
 "use strict";
+const numberOfFilms = + prompt(`Сколько фильмов вы уже посмотрели`, ``);
 
-SVGAnimatedString
-=======
-"use strict";
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: [],
+    actirs: {},
+    geners: [],
+    privat: false
+};
 
-const category = 'toys';
+const a = prompt(`Один из последних фильмов?`, ``),
+      b = prompt('На сколько оцените его?',``),
+      c = prompt('один из последних просмотреных фильмов?',``),
+      d = prompt(`На сколько вы его оцените`, ``);
+  
 
-console.log(`https://someurl.com/${category}/5`);
+      personalMovieDB.movies[a] = b;
+      personalMovieDB.movies[c] = d;
+   
 
-const user = 'Ivan';
+      console.log(personalMovieDB);
+  
 
-//alert(`Привет, ${user}`)
->>>>>>> 03dde1a4ddb24ed10c9452025f15611b3bd6614b
